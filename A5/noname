@@ -1,0 +1,44 @@
+ 
+=======  ../../gradeA5.sh  ==============================
+ 
+]0;IPython: solutions/pospeckbradExtracting python code from notebook and storing in notebookcode.py
+Removing all statements that are not function or class defs, import or global assignment statments.
+found state as assign target
+found move as assign target
+
+Testing validMoves([[1], [], [2, 3]])
+
+--- 10/10 points. Correctly returned [[1, 2], [1, 3], [3, 2]]
+
+Testing validMoves([[], [1, 2, 3], []])
+
+--- 10/10 points. Correctly returned [[2, 1], [2, 3]]
+
+Testing makeMove([[], [1, 2, 3], []], [2, 3])
+
+--- 10/10 points. Correctly returned [[], [2, 3], [1]]
+
+Testing makeMove([[2], [3], [1]], [3, 2])
+
+--- 10/10 points. Correctly returned [[2], [1, 3], []]
+
+Testing   Q, steps = trainQ(2000, 0.2, 0.95, validMoves, makeMove).
+
+--- 10/10 points. Q dictionary has correct number of entries.
+
+--- 10/10 points. The mean of the number of steps is 7.6025 which is correct.
+
+Testing   Q, steps = trainQ(50, 0.5, 0.9, validMoves, makeMove)
+            path = testQ(Q, 20, validMoves, makeMove).
+
+--- 20/20 points. Correctly returns path of length 8, less than 10.
+
+pospeckbrad Execution Grade is 80/80
+
+ 15/15 points. Text describing trainQ and testQ.
+
+ 4/5 points. Plot of steps for each repetition during training.
+- Legend missing in the plots
+
+
+pospeckbrad FINAL GRADE is 99/100

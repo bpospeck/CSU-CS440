@@ -1,0 +1,13 @@
+pacmanInfo.txt
+code from: http://www-inst.eecs.berkeley.edu/~cs188/sp11/projects/multiagent/multiagentProject.html
+
+-The 2 main files to work with are "ghostAgents.py" and "multiAgents.py". Those are where algorithms for ghosts and pacman go.
+-"pacman.py" is the main file that runs the game. Has 'GameState' type which may need to be used often according to URL.
+-"game.py" has teh game logic. Describes 'AgentState', 'Agent', 'Direction', and 'Grid' which are supporting types.
+-"util.py" supposedly has useful data structures for implementing some search algorithms.
+
+-Line 485 in "pacman.py" has a description of all possible command line arguments and what they do. Tons of useful options available.
+-I have the freedom to create my own layouts following the format of '.lay' files in the layouts folder.
+-"commands.txt" also provides examples of terminal inputs to run different things.
+
+Most everything else is just supporting files that I can probably ignore for the most part.

@@ -1,0 +1,80 @@
+ 
+=======  ../../gradeA4.sh  ==============================
+ 
+]0;IPython: solutions/pospeckbradExtracting python code from notebook and storing in notebookcode.py
+Removing all statements that are not function or class defs, import or global assignment statments.
+
+Testing negamax starting from ['O', 'X', ' ', 'O', ' ', ' ', ' ', 'X', ' ']
+
+--- 10/10 points. negamax correctly returns value of 1
+
+--- 10/10 points. negamax correctly explored 124 states.
+
+Testing negamax starting from ['O', 'X', 'X', 'O', 'O', ' ', ' ', 'X', ' ']
+
+--- 10/10 points. negamax correctly returns value of -1 and move of 5
+
+Testing negamaxIDS with max depth of 5, starting from ['O', 'X', 'X', 'O', 'O', ' ', ' ', 'X', ' ']
+
+--- 10/10 points. negamaxIDS correctly returns value of -1 and move of 5
+
+Testing negamaxIDSab starting from ['O', 'X', 'X', 'O', 'O', ' ', ' ', 'X', ' ']
+
+--- 20/20 points. negamaxIDSab correctly returns value of -1 and move of 5
+
+Testing playGame with opponent that always plays in center, or if not available, in highest numbered position.
+ | | 
+-----
+ | | 
+-----
+ | | 
+Player X to 0 for score 0
+X| | 
+-----
+ | | 
+-----
+ | | 
+Player O to 4
+X| | 
+-----
+ |O| 
+-----
+ | | 
+Player X to 1 for score 0
+X|X| 
+-----
+ |O| 
+-----
+ | | 
+Player O to 8
+X|X| 
+-----
+ |O| 
+-----
+ | |O
+Player X to 2 for score 1
+X|X|X
+-----
+ |O| 
+-----
+ | |O
+
+--- 10/10 points. playGame correctly wins by filling top row with Xs.
+
+pospeckbrad Execution Grade is 70/70
+
+Checking your playGames function:
+
+---   2/2 You ran all three algorithms and printed the results all moves.
+
+---   3/3 You print the results of three algorithms after all are run.
+
+---   5/5 negamaxIDSab won in 3 moves.
+
+---   5/5 negamaxIDS and negamaxIDSab won in fewer moves than negamax.
+
+---  10/10 negamaxIDSab explored fewer moves than the other two algorithms.
+
+---  5/5 ebfs were all between 4 and 10.
+
+pospeckbrad FINAL GRADE is 100/100
